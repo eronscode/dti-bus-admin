@@ -1,0 +1,81 @@
+
+
+@media (max-width: 992px){
+    .AppNavbar{
+        display: block !important
+    }
+    .Nav{
+        
+        display: grid;
+        
+        grid-gap: 1em;
+        text-align: center;
+        }
+}
+
+.Signup{
+    background:#2391D5;
+    color: #fff !important;
+    padding: 6px 20px !important;
+    border-radius: 6px;
+    font-size: 15px;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);          
+}
+
+.Login{
+    background:#fff;
+    border:1px solid #2391D5;
+    color: #2391D5 !important;
+    padding: 6px 20px !important;
+    border-radius: 6px;
+    font-size: 15px;      
+}
+
+.profileIcon{
+    width: 38px;
+    height: 38px;
+    overflow: hidden;
+    background: #baceda;
+    border-radius: 50px;
+}
+.profileIcon img{
+    width: 100%;
+}
+
+.displayName{
+    position: relative;
+    top: 8px;
+    left: 8px;
+    text-transform: capitalize;
+    cursor: pointer;
+}
+
+.overlayNav{
+    display: none;
+    position: absolute;
+    background: #fff;
+    top: 57px;
+    right: 21px;
+    width: 110px;
+    padding: 14px 16px;
+}
+.overlayNav button{
+    background: transparent;
+    border: none;
+    width: 100%;
+}
+
+.profileIconDiv{
+    display: flex;
+    cursor: pointer;
+}
+
+.profileIconDiv a{
+    text-decoration: none;
+}
+
+
+
+.profileIconDiv:hover  .overlayNav {
+    display: block;
+}

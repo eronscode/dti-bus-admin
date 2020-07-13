@@ -1,0 +1,152 @@
+.Banner{
+    background: linear-gradient(rgba(0, 0, 0, 0.52), rgba(0, 0, 0, 0.28)), url('../../../assets/images/bgimg3.jpeg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 200px;
+    text-align: center;
+}
+
+.Banner h1{
+    color: #fff;
+    padding-top: 55px;
+}
+
+.section{
+    margin: 40px 0 47px 0;
+}
+
+.Bookings{
+    margin: 64px 0 0 0;
+}
+
+.Banner h1:after{
+    content: '';
+    width: 52px;
+    height: 4px;
+    text-align: center;
+    display: block;
+    margin: auto;
+    background: #fff;
+}
+.Bookings .header{
+    display: flex;
+    justify-content: space-between;
+    /* padding: 21px 0; */
+}
+
+.Bookings .header h1{
+    font-size: 18px;
+    color: #6b6b6b;
+}
+
+
+@media screen and (max-width: 768px){
+    .Bookings .header{
+        margin: 80px 0 0 0;
+    }
+    .Banner h1{
+        font-size: 20px;
+    }
+    section{
+        margin: 240px 0 47px 0;
+    }
+    .navigateHelper{
+        display: block !important;
+    }
+
+    .itemNavigateHelper{
+        text-align: center;
+        padding: 23px 0;
+    }
+}
+
+.navigateHelper{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-gap: 1em;
+    justify-content: center;
+    align-items: center;
+    background: #fff;
+    padding: 23px;
+    border: 1px #ebf3ff solid;
+    box-shadow: 0 0 4px 0 rgba(0,0,0,.08), 0 2px 4px 0 rgba(0,0,0,.12);
+}
+
+.itemNavigateHelper{
+    text-align: center;
+    padding: 10px;
+}
+.itemNavigateHelper img{
+
+    width: 60px;
+
+}
+.itemNavigateHelper h4{
+    font-size: 16px;
+    padding: 25px 0;
+}
+.itemNavigateHelper a{
+    padding: 5px 11px 0px 11px;
+    border: 1px solid;
+    border-style: dotted;
+    font-size: 14px;
+    text-decoration: none;
+}
+
+.welcomeText h4{
+    color: #6b6b6b;
+    font-size: 18px;
+    margin: 0 0 30px 0;
+}
+
+.profileCard{
+    background: #fff;
+    box-shadow: 0 0 4px 0 rgba(0,0,0,.08), 0 2px 4px 0 rgba(0,0,0,.12);
+}
+
+.profileImgName{
+    display: flex;
+    flex-direction: row;
+    padding: 14px 17px;
+    align-items: center;
+}
+.profileIcon{
+    width: 50px;
+    height: 50px;
+    background: #000;
+    border-radius: 50%;
+    text-align: center;
+    vertical-align: middle;
+}
+.profileIcon p{
+    color: #fff;
+    position: relative;
+    top: 10px;
+    text-align: center;
+    font-size: 26px;
+}
+.profileImgName h4{
+    font-size: 17px;
+    padding: 0;
+    margin: 0;
+}
+
+.profileName{
+    margin: 1px 0 0 13px;
+}
+.profileName a{
+    font-size: 12px;
+}
+
+
+.sidebarFixed {
+    height: 100%;
+    width: 29%;
+    position: fixed;
+    z-index: 1;
+    /* top: 0; */
+    /* right: 0; */
+    /* background-color: #111; */
+    overflow-x: hidden;
+    /* padding-top: 20px;*/
+  }
